@@ -1,0 +1,12 @@
+server:
+    port: 8888
+
+spring:
+    application:
+        name: bai3_it214_ss03
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/LINH-2006-CUTE/PTIT_CNTT2-K24_IT214_Session03_Bai3.git
+                    default-label: main
